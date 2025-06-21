@@ -109,10 +109,14 @@ TOKEN_COSTS = {
     "doubao-lite-32k-240515": {"prompt": 0.000043, "completion": 0.000086},
     "doubao-lite-128k-240515": {"prompt": 0.00011, "completion": 0.00014},
     "doubao-pro-4k-240515": {"prompt": 0.00011, "completion": 0.00029},
-    "doubao-pro-32k-240515": {"prompt": 0.00011, "completion": 0.00029},
+
+]    "doubao-pro-32k-240515": {"prompt": 0.00011, "completion": 0.00029},
     "doubao-pro-128k-240515": {"prompt": 0.0007, "completion": 0.0013},
     "llama3-70b-llama3-70b-instruct": {"prompt": 0.0, "completion": 0.0},
     "llama3-8b-llama3-8b-instruct": {"prompt": 0.0, "completion": 0.0},
+÷    "gpt-4.1": {"prompt": 0.002, "completion": 0.008},  # $2.00/1M input, $8.00/1M output
+    "gpt-4.1-mini": {"prompt": 0.0004, "completion": 0.0016},  # $0.40/1M input, $1.60/1M output
+    "gpt-4.1-nano": {"prompt": 0.0001, "completion": 0.0004},  # $0.10/1M input, $0.40/1M output
 }
 
 
@@ -457,6 +461,9 @@ def count_message_tokens(messages, model="gpt-3.5-turbo-0125"):
         "gpt-4o-2024-08-06",
         "gpt-4o-mini",
         "gpt-4o-mini-2024-07-18",
+        "gpt-4.1",
+        "gpt-4.1-mini",
+        "gpt-4.1-nano",
         "o1-preview",
         "o1-preview-2024-09-12",
         "o1-mini",
