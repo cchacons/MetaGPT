@@ -113,7 +113,7 @@ TOKEN_COSTS = {
     "doubao-pro-128k-240515": {"prompt": 0.0007, "completion": 0.0013},
     "llama3-70b-llama3-70b-instruct": {"prompt": 0.0, "completion": 0.0},
     "llama3-8b-llama3-8b-instruct": {"prompt": 0.0, "completion": 0.0},
-÷    "gpt-4.1": {"prompt": 0.002, "completion": 0.008},  # $2.00/1M input, $8.00/1M output
+    "gpt-4.1": {"prompt": 0.002, "completion": 0.008},  # $2.00/1M input, $8.00/1M output
     "gpt-4.1-mini": {"prompt": 0.0004, "completion": 0.0016},  # $0.40/1M input, $1.60/1M output
     "gpt-4.1-nano": {"prompt": 0.0001, "completion": 0.0004},  # $0.10/1M input, $0.40/1M output
 }
